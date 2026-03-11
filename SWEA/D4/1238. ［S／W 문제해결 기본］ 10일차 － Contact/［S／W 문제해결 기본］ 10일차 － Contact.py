@@ -39,28 +39,28 @@ from collections import deque
 T = 10
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 for test_case in range(1, T + 1):
-    # ///////////////////////////////////////////////////////////////////////////////////
-    a,b = map(int,input().split()) # a는 길이, b는 시작점
-    A = list(map(int,input().split()))
-    graph = [[] for _ in range(101)]
+    a,b = map(int,input().split()) # a가 총 길이 b가 시작 그거.
+    g = list(map(int,input().split()))
+    A = [[] for _ in range(101)]
     for i in range(0,a,2):
-        graph[A[i]].append(A[i+1])
-    dist = [-1] * 101
-    q = deque([b])
-    dist[b] = 0
-    while q:
-        now = q.popleft()
-        for i in graph[now]:
-            if dist[i] == -1:
-                dist[i] = dist[now] +1
-                q.append(i)
-    max_depth=max(dist)
+        A[g[i]].append(g[i+1])
+    queue = deque()
+    queue.append(b)
+    dist =[-1] * 101
+    dist[b] =0
+
+    while queue:
+        x = queue.popleft()
+        for i in A[x]:
+            if dist[i] ==-1:
+                dist[i] = dist[x] +1
+                queue.append(i)
+
+    max_depth = max(dist)
     answer = 0
-    for i in range(1,101):
+    for i in range(101):
         if dist[i] == max_depth:
-            answer = max(answer,i)
+            answer = max(i,answer)
     print(f"#{test_case} {answer}")
 
-    
-
-    # ///////////////////////////////////////////////////////////////////////////////////
+        
