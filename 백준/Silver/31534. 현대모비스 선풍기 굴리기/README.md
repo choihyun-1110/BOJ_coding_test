@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 34536 KB, 시간: 36 ms
+메모리: 34668 KB, 시간: 40 ms
 
 ### 분류
 
@@ -12,11 +12,11 @@
 
 ### 제출 일자
 
-2026년 3월 23일 14:42:44
+2026년 3월 23일 14:49:46
 
 ### 문제 설명
 
-<p style="text-align: center;"><img alt="" src="" style="height: 138px; width: 400px;"></p>
+<p style="text-align: center;"><img alt="" src="https://u.acmicpc.net/246d332b-f9c8-4d92-85ce-3ebf53955840/hyundaimobis_CI.png" style="height: 138px; width: 400px;"></p>
 
 <blockquote>
 <p>현대모비스는 자율주행, 전동화, 커넥티비티 등 미래 모빌리티 기술의 핵심인 소프트웨어에 집중하고 있다. 대표적으로 CAN(Controller Area Network) 프로토콜로 대표되는 차량 네트워크 분야, 센서 등 여러 ECU(Electronic Contorl Unit) 및 MCU(Micro Controller Unit) 기반의 임베디드 분야, 자율주행 등의 AI 분야, OS와 분리된 보안 영역인 TEE(Trusted Execution Environment) 등 자동차에서 사용되는 보안 분야까지 다양한 소프트웨어 분야에 초점을 두고 있다.</p>
@@ -36,7 +36,7 @@
 
 <p>이제 이 도형의 옆면을 바닥에 놓고 아래와 같이 무한히 굴린다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="height: 371px; width: 400px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/115bee84-d302-4686-8279-ed12f8808286/-/crop/892x827/2773,1278/-/preview/" style="height: 371px; width: 400px;"></p>
 
 <p>도형의 옆면이 만드는 자취가 남게 될 것이다. 이 자취의 넓이를 구해보자.</p>
 
